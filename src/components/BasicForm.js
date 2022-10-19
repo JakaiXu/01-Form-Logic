@@ -13,7 +13,6 @@ const BasicForm = (props) => {
     inputBlurHandler: firstNameBlurHandler,
     reset: resetFirstName,
   } = useInput(isNotEmpty);
-// ceshi ,yihui keyi shanchu
   const {
     value: enteredLastNameValue,
     isValid: lastNameIsValid,
