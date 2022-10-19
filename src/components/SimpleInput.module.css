@@ -1,0 +1,11 @@
+.invalid{
+    color: red;
+}
+button:disabled,
+button:disabled:hover,
+button:disabled:active{
+background-color: rgb(81, 76, 76);
+color:rgb(217, 206, 206);
+border-color: rgba(43, 43, 41, 0.022);
+cursor: not-allowed;
+}
